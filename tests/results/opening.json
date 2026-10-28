@@ -1,0 +1,240 @@
+{
+  "exact_overlapping_css_timings": [
+    {
+      "name": "hero-photo-arrival",
+      "duration": 1800,
+      "delay": 0,
+      "easing": "cubic-bezier(0.2, 0.65, 0.3, 1)",
+      "properties": [
+        "transform"
+      ]
+    },
+    {
+      "name": "hero-headline-arrival",
+      "duration": 700,
+      "delay": 120,
+      "easing": "cubic-bezier(0.2, 0.65, 0.3, 1)",
+      "properties": [
+        "transform",
+        "opacity"
+      ]
+    },
+    {
+      "name": "hero-headline-arrival",
+      "duration": 700,
+      "delay": 360,
+      "easing": "cubic-bezier(0.2, 0.65, 0.3, 1)",
+      "properties": [
+        "transform",
+        "opacity"
+      ]
+    },
+    {
+      "name": "hero-headline-arrival",
+      "duration": 700,
+      "delay": 600,
+      "easing": "cubic-bezier(0.2, 0.65, 0.3, 1)",
+      "properties": [
+        "transform",
+        "opacity"
+      ]
+    },
+    {
+      "name": "hero-detail-arrival",
+      "duration": 500,
+      "delay": 1000,
+      "easing": "cubic-bezier(0.2, 0.65, 0.3, 1)",
+      "properties": [
+        "transform",
+        "opacity"
+      ]
+    },
+    {
+      "name": "hero-detail-arrival",
+      "duration": 500,
+      "delay": 1300,
+      "easing": "cubic-bezier(0.2, 0.65, 0.3, 1)",
+      "properties": [
+        "transform",
+        "opacity"
+      ]
+    }
+  ],
+  "start_midpoint_final_transforms_opacity": {
+    "start": [
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1.08
+      },
+      {
+        "opacity": 0,
+        "y": 93.6547,
+        "scale": 1
+      },
+      {
+        "opacity": 0,
+        "y": 93.6547,
+        "scale": 1
+      },
+      {
+        "opacity": 0,
+        "y": 93.6547,
+        "scale": 1
+      },
+      {
+        "opacity": 0,
+        "y": 12,
+        "scale": 1
+      },
+      {
+        "opacity": 0,
+        "y": 12,
+        "scale": 1
+      }
+    ],
+    "450ms": [
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1.0276
+      },
+      {
+        "opacity": 0.883581,
+        "y": 10.9032,
+        "scale": 1
+      },
+      {
+        "opacity": 0.394729,
+        "y": 56.6864,
+        "scale": 1
+      },
+      {
+        "opacity": 0,
+        "y": 93.6547,
+        "scale": 1
+      },
+      {
+        "opacity": 0,
+        "y": 12,
+        "scale": 1
+      },
+      {
+        "opacity": 0,
+        "y": 12,
+        "scale": 1
+      }
+    ],
+    "1500ms": [
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1.00061
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 0.83256,
+        "y": 2.00928,
+        "scale": 1
+      }
+    ],
+    "1800ms": [
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      },
+      {
+        "opacity": 1,
+        "y": 0,
+        "scale": 1
+      }
+    ]
+  },
+  "responsive_and_reduced_motion": {
+    "360": {
+      "stable_dimensions": true,
+      "no_overflow": true,
+      "reduced_motion_immediate": true,
+      "headline_group_heights": [
+        47,
+        47,
+        47
+      ]
+    },
+    "390": {
+      "stable_dimensions": true,
+      "no_overflow": true,
+      "reduced_motion_immediate": true,
+      "headline_group_heights": [
+        50,
+        50,
+        50
+      ]
+    },
+    "768": {
+      "stable_dimensions": true,
+      "no_overflow": true,
+      "reduced_motion_immediate": true,
+      "headline_group_heights": [
+        71,
+        71,
+        71
+      ]
+    },
+    "1440": {
+      "stable_dimensions": true,
+      "no_overflow": true,
+      "reduced_motion_immediate": true,
+      "headline_group_heights": [
+        85,
+        85,
+        85
+      ]
+    }
+  },
+  "ctas_pointer_clickable_at_start_keyboard_immediately_visible": "pass",
+  "initial_load_reload_once_no_hash_service_form_replay": "pass",
+  "direct_section_links_keep_position_all_widths": "pass",
+  "no_image_font_gate_scroll_lock_or_storage": "pass",
+  "browser_errors": []
+}

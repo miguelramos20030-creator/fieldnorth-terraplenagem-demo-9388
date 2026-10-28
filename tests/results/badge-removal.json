@@ -1,0 +1,38 @@
+[
+  {
+    "url": "http://localhost:4200/",
+    "width": 1440,
+    "badge_absent": true,
+    "footer_back_to_top_pointer_click": "pass",
+    "page_errors": []
+  },
+  {
+    "url": "http://localhost:4200/",
+    "width": 390,
+    "badge_absent": true,
+    "footer_back_to_top_pointer_click": "pass",
+    "page_errors": []
+  },
+  {
+    "url": "http://127.0.0.1:4500/",
+    "width": 1440,
+    "badge_absent": true,
+    "footer_back_to_top_pointer_click": "pass",
+    "page_errors": []
+  },
+  {
+    "url": "http://127.0.0.1:4500/",
+    "width": 390,
+    "badge_absent": true,
+    "footer_back_to_top_pointer_click": "pass",
+    "page_errors": []
+  },
+  {
+    "hero_1800ms_preserved": true,
+    "analytics_script_retained": true
+  },
+  {
+    "published_url": "https://fieldno-zfawbud.runable.site/",
+    "badge_currently_present": true
+  }
+]

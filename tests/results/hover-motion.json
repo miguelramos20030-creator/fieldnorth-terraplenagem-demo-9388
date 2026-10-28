@@ -1,0 +1,22 @@
+{
+  ".scenario-0 button": {
+    "zoom": 1.045,
+    "smooth_transition": "650ms",
+    "container_unchanged": true,
+    "returns_to_rest": true
+  },
+  ".service-photo": {
+    "zoom": 1.035,
+    "smooth_transition": "650ms",
+    "container_unchanged": true,
+    "returns_to_rest": true
+  },
+  "button_hover": {
+    "lift": "2px",
+    "arrow": "2px",
+    "transition": "260ms"
+  },
+  "keyboard_gallery_focus_zoom": "pass",
+  "reduced_motion_disables_hover_movement_and_transitions": "pass",
+  "touch_emulation_has_no_sticky_hover_zoom": "pass"
+}
