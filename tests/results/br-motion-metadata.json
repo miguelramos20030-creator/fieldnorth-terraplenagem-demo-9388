@@ -1,0 +1,22 @@
+{
+  "revealBefore": {
+    "waiting": true,
+    "duration": "0.7s, 0.7s",
+    "transform": "matrix(1, 0, 0, 1, 0, 21.6332)"
+  },
+  "revealAfterRevisit": {
+    "revealed": true,
+    "waiting": false,
+    "transform": "none"
+  },
+  "heroOffscreen": true,
+  "metadata": {
+    "lang": "pt-BR",
+    "title": "FieldNorth | Terraplenagem e Máquinas — Demo Brasil",
+    "description": "FieldNorth: demonstração fictícia de terraplenagem e máquinas com operador. Conheça serviços, aplicações e uma simulação de orçamento para Cascavel e Toledo.",
+    "og": "Prepare o terreno. Dê espaço ao seu projeto. Empresa fictícia criada para demonstração. Projeto de Miguel Ramos.",
+    "emptyAlts": 0,
+    "belowFoldEager": 0
+  },
+  "EnglishLegacyVisible": false
+}

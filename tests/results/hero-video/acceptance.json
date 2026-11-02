@@ -1,0 +1,269 @@
+{
+  "url": "http://127.0.0.1:4503/",
+  "checks": [
+    {
+      "name": "immediate headline/buttons/header visible",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "source absent until after primary load/paint",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "poster retained during blocked video request",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "navigation works while video pending",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "replay works before video response",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "native muted inline loop and advancing decoded frames",
+      "passed": true,
+      "data": {
+        "a": {
+          "time": 0.3637,
+          "paused": false,
+          "ready": 4,
+          "duration": 7.208333,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "frames": 10
+        },
+        "b": {
+          "time": 1.0064,
+          "paused": false,
+          "ready": 4,
+          "duration": 7.208333,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "frames": 28
+        }
+      }
+    },
+    {
+      "name": "uninterrupted native loop retains visible video and poster",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "pause control keyboard focus and 44px hit area",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "keyboard pause freezes currentTime",
+      "passed": true,
+      "data": {
+        "a": {
+          "time": 1.1225,
+          "paused": true,
+          "ready": 4,
+          "duration": 7.208333,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "frames": 375
+        },
+        "b": {
+          "time": 1.1225,
+          "paused": true,
+          "ready": 4,
+          "duration": 7.208333,
+          "muted": true,
+          "inline": true,
+          "loop": true,
+          "frames": 375
+        }
+      }
+    },
+    {
+      "name": "decoded bucket-region frames change independently of CSS",
+      "passed": true,
+      "data": {
+        "mean_pixel_difference": 27.998940217391304
+      }
+    },
+    {
+      "name": "loop crosses end without empty media",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "offscreen pauses media",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "onscreen resumes media",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "manual pause survives offscreen return",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "replay scrolls to top and resets time",
+      "passed": true,
+      "data": {
+        "time": 0.0854,
+        "paused": false,
+        "ready": 4,
+        "duration": 7.208333,
+        "muted": true,
+        "inline": true,
+        "loop": true,
+        "frames": 1153
+      }
+    },
+    {
+      "name": "replay restarts four-second entrance",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "returning session does not suppress playback",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "simulated hidden-tab event pauses media",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "simulated visible-tab event resumes media",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "live reduced-motion removes video",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "no JS errors",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "320/normal: zero video requests or hidden elements",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "320/normal: static poster/readable text/no overflow",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390/normal: zero video requests or hidden elements",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "390/normal: static poster/readable text/no overflow",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "844/touch-landscape: zero video requests or hidden elements",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "844/touch-landscape: static poster/readable text/no overflow",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440/reduced: zero video requests or hidden elements",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "1440/reduced: static poster/readable text/no overflow",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440/save-data: zero video requests or hidden elements",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "1440/save-data: static poster/readable text/no overflow",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "failed-video: immediate poster and content preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "denied-autoplay: immediate poster and content preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "denied autoplay recoverable by accessible play button",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "source: 6–8s/720p/24fps/no audio/<1.5MB",
+      "passed": true,
+      "data": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "7.208333",
+          "size": "1362505"
+        }
+      }
+    },
+    {
+      "name": "production: 6–8s/720p/24fps/no audio/<1.5MB",
+      "passed": true,
+      "data": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "24/1"
+          }
+        ],
+        "format": {
+          "duration": "7.208333",
+          "size": "721902"
+        }
+      }
+    }
+  ],
+  "conditions": "Chrome Linux; emulated viewports, production static files unless URL overridden"
+}

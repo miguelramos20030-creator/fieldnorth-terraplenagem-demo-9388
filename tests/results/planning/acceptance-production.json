@@ -1,0 +1,301 @@
+{
+  "url": "http://127.0.0.1:4503/",
+  "checks": [
+    {
+      "name": "320: clear dedicated responsive image",
+      "passed": true,
+      "data": {
+        "node": "same-image",
+        "src": "http://127.0.0.1:4503/images/br-planning-plot-640.webp",
+        "srcset": "/images/br-planning-plot-640.webp 640w, /images/br-planning-plot-960.webp 960w, /images/br-planning-plot-1200.webp 1200w",
+        "alt": "Terreno vazio com solo e vegetação seca, visto de um ponto elevado, com acesso de terra contornando a área cercada e sem máquinas em primeiro plano",
+        "x": 16,
+        "y": 481.90625,
+        "w": 288,
+        "h": 192,
+        "position": "50% 50%",
+        "fit": "cover"
+      }
+    },
+    {
+      "name": "320: keyboard planning state",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: identical photo node/source/crop/geometry in both states",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: image/overlay share 3:2 frame and 1200x800 coordinates",
+      "passed": true,
+      "data": {
+        "image": [
+          16,
+          481.90625,
+          288,
+          192
+        ],
+        "overlay": [
+          16,
+          481.90625,
+          288,
+          192
+        ],
+        "box": "0 0 1200 800"
+      }
+    },
+    {
+      "name": "320: Portuguese labels remain contained",
+      "passed": true,
+      "data": [
+        {
+          "text": "Área de trabalho ilustrativa",
+          "inside": true
+        },
+        {
+          "text": "Acesso de máquinas",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "320: disclaimer preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: photo state restores exact image pixels",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: no JS errors or horizontal overflow",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "390: clear dedicated responsive image",
+      "passed": true,
+      "data": {
+        "node": "same-image",
+        "src": "http://127.0.0.1:4503/images/br-planning-plot-640.webp",
+        "srcset": "/images/br-planning-plot-640.webp 640w, /images/br-planning-plot-960.webp 960w, /images/br-planning-plot-1200.webp 1200w",
+        "alt": "Terreno vazio com solo e vegetação seca, visto de um ponto elevado, com acesso de terra contornando a área cercada e sem máquinas em primeiro plano",
+        "x": 20,
+        "y": 440.5,
+        "w": 350,
+        "h": 233.328125,
+        "position": "50% 50%",
+        "fit": "cover"
+      }
+    },
+    {
+      "name": "390: keyboard planning state",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: identical photo node/source/crop/geometry in both states",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: image/overlay share 3:2 frame and 1200x800 coordinates",
+      "passed": true,
+      "data": {
+        "image": [
+          20,
+          440.5,
+          350,
+          233.328125
+        ],
+        "overlay": [
+          20,
+          440.5,
+          350,
+          233.328125
+        ],
+        "box": "0 0 1200 800"
+      }
+    },
+    {
+      "name": "390: Portuguese labels remain contained",
+      "passed": true,
+      "data": [
+        {
+          "text": "Área de trabalho ilustrativa",
+          "inside": true
+        },
+        {
+          "text": "Acesso de máquinas",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "390: disclaimer preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: photo state restores exact image pixels",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: no JS errors or horizontal overflow",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "768: clear dedicated responsive image",
+      "passed": true,
+      "data": {
+        "node": "same-image",
+        "src": "http://127.0.0.1:4503/images/br-planning-plot-960.webp",
+        "srcset": "/images/br-planning-plot-640.webp 640w, /images/br-planning-plot-960.webp 960w, /images/br-planning-plot-1200.webp 1200w",
+        "alt": "Terreno vazio com solo e vegetação seca, visto de um ponto elevado, com acesso de terra contornando a área cercada e sem máquinas em primeiro plano",
+        "x": 32,
+        "y": 448.765625,
+        "w": 704,
+        "h": 469.328125,
+        "position": "50% 50%",
+        "fit": "cover"
+      }
+    },
+    {
+      "name": "768: keyboard planning state",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: identical photo node/source/crop/geometry in both states",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: image/overlay share 3:2 frame and 1200x800 coordinates",
+      "passed": true,
+      "data": {
+        "image": [
+          32,
+          448.765625,
+          704,
+          469.328125
+        ],
+        "overlay": [
+          32,
+          448.765625,
+          704,
+          469.328125
+        ],
+        "box": "0 0 1200 800"
+      }
+    },
+    {
+      "name": "768: Portuguese labels remain contained",
+      "passed": true,
+      "data": [
+        {
+          "text": "Área de trabalho ilustrativa",
+          "inside": true
+        },
+        {
+          "text": "Acesso de máquinas",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "768: disclaimer preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: photo state restores exact image pixels",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: no JS errors or horizontal overflow",
+      "passed": true,
+      "data": []
+    },
+    {
+      "name": "1440: clear dedicated responsive image",
+      "passed": true,
+      "data": {
+        "node": "same-image",
+        "src": "http://127.0.0.1:4503/images/br-planning-plot-1200.webp",
+        "srcset": "/images/br-planning-plot-640.webp 640w, /images/br-planning-plot-960.webp 960w, /images/br-planning-plot-1200.webp 1200w",
+        "alt": "Terreno vazio com solo e vegetação seca, visto de um ponto elevado, com acesso de terra contornando a área cercada e sem máquinas em primeiro plano",
+        "x": 56,
+        "y": 428.765625,
+        "w": 1328,
+        "h": 885.328125,
+        "position": "50% 50%",
+        "fit": "cover"
+      }
+    },
+    {
+      "name": "1440: keyboard planning state",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: identical photo node/source/crop/geometry in both states",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: image/overlay share 3:2 frame and 1200x800 coordinates",
+      "passed": true,
+      "data": {
+        "image": [
+          56,
+          428.765625,
+          1328,
+          885.328125
+        ],
+        "overlay": [
+          56,
+          428.765625,
+          1328,
+          885.328125
+        ],
+        "box": "0 0 1200 800"
+      }
+    },
+    {
+      "name": "1440: Portuguese labels remain contained",
+      "passed": true,
+      "data": [
+        {
+          "text": "Área de trabalho ilustrativa",
+          "inside": true
+        },
+        {
+          "text": "Acesso de máquinas",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "1440: disclaimer preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: photo state restores exact image pixels",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: no JS errors or horizontal overflow",
+      "passed": true,
+      "data": []
+    }
+  ]
+}

@@ -1,5 +1,33 @@
  # FieldNorth implementation
 
+## Planning photograph/overlay correction — latest
+- [x] Verified real empty-land photograph Pexels 15493828, Ann Perkas, and free modification/use license.
+- [x] Dedicated responsive local WebP, common 3:2 crop for both states; existing terrain photos in other sections untouched.
+- [x] Redraw work polygon within fenced open ground and access along visible dirt track; labels clear of access, image/SVG coordinates identical at all widths.
+- [x] Build/lint passed; planning suite 32/32 on preview and 32/32 on production at 320/390/768/1440; full regression 292/292.
+- [x] Visually reviewed desktop/mobile photo and annotated states. Same image node/source/crop retained across toggles; no foreground machinery.
+- [ ] Deliver preview; no publishing, new export, Lighthouse claim or other section changes.
+
+## Working-footage hero correction — latest
+- [x] Obtain and verify licensed Pexels 5554470 footage; genuine digging/lift/dump.
+- [x] Local 7.208s/720p/24fps/no-audio loop with tail/head dissolve: source 1,362,505 bytes; build 721,902 bytes.
+- [x] Hero-only delayed desktop/fine-pointer media, retained poster, accessible pause, offscreen/hidden pause, replay scroll/reset; mobile/touch/reduced-motion/save-data no video source.
+- [x] Web build and lint passed. Current production and preview hero suites 36/36 each (including keyboard pause and replay before media response); full Brazilian regression 292/292.
+- [x] Visually inspect browser frames during uninterrupted playback: bucket low, lifted with soil, dumping; dissolve seam and natural loop return contain no black frame. Byte-range QA server resolves original simple-server seek limitation.
+- [x] Document source/license, changed files, verification and limits; historical Lighthouse scores/ZIPs not updated or reused.
+- [ ] Deliver current preview/report; no publication.
+
+## Brazilian revision — current task
+- [x] Re-read supplied seven-page brief and relevant app skill; inspect current project/reference.
+- [x] Preserve source snapshot without credentials: fieldnorth-before-br.tar.gz.
+- [x] Decide licensed local photography instead of unverified video; document revised direction.
+- [x] Implement pt-BR content, machinery, planning overlay, multi-service local planner, immediate-readable opening and responsive interactions.
+- [x] Build/lint and production acceptance suite; repair any failures. 292/292 on managed static and 292/292 on no-env static; preview smoke passed.
+- [x] Record six cold-cache Lighthouse runs, resource budgets, limits and static export. Final median performance 98 mobile / 100 desktop; raw audited transfer 862,491 / 926,279 bytes. Minimal export checked with external network blocked. Six audits repeated after increasing disclosure/footer readability.
+- [ ] Deliver preview for review; do not publish.
+
+Current handoff: fieldnorth-br.report/content.md, br-source/static ZIPs. Physical notebook/phone, field INP/p75, Safari/Firefox and real screen readers remain unverified. No publishing action taken. Older task notes below are historical, including now-obsolete badge/English-niche claims.
+
 - [x] Read all 8 PDF pages; approved implementation plan.
 - [x] Initialize managed React/Vite web project. No API/database features.
 - [x] Research imagery: generated loader concept; free-license Unsplash landscape sources verified via browser.

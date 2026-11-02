@@ -1,0 +1,1534 @@
+{
+  "url": "http://127.0.0.1:4501/",
+  "conditions": "Chrome Linux headless; static files-only HTTP server, no authentication, no transfer compression; viewport emulation, not physical devices",
+  "checks": [
+    {
+      "name": "320: width, language, immediate text/nav and first opening",
+      "passed": true,
+      "data": {
+        "width": 320,
+        "scroll": 320,
+        "lang": "pt-BR",
+        "title": "FieldNorth | Terraplenagem e Máquinas — Demo Brasil",
+        "hero": "1",
+        "nav": "1",
+        "video": 0,
+        "scene": 4000
+      }
+    },
+    {
+      "name": "320: shortened return",
+      "passed": true,
+      "data": 800
+    },
+    {
+      "name": "320: lightweight replay",
+      "passed": true,
+      "data": 4000
+    },
+    {
+      "name": "320:top:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:top:servicos correct anchor",
+      "passed": true,
+      "data": 88
+    },
+    {
+      "name": "320:top:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:top:maquinas correct anchor",
+      "passed": true,
+      "data": 88.03125
+    },
+    {
+      "name": "320:top:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:top:aplicacoes correct anchor",
+      "passed": true,
+      "data": 88.328125
+    },
+    {
+      "name": "320:top:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:top:como-funciona correct anchor",
+      "passed": true,
+      "data": 87.96875
+    },
+    {
+      "name": "320:top:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:top:duvidas correct anchor",
+      "passed": true,
+      "data": 87.625
+    },
+    {
+      "name": "320:top:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:top:orcamento correct anchor",
+      "passed": true,
+      "data": 88.375
+    },
+    {
+      "name": "320:middle:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:middle:servicos correct anchor",
+      "passed": true,
+      "data": 88
+    },
+    {
+      "name": "320:middle:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:middle:maquinas correct anchor",
+      "passed": true,
+      "data": 88.03125
+    },
+    {
+      "name": "320:middle:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:middle:aplicacoes correct anchor",
+      "passed": true,
+      "data": 88.328125
+    },
+    {
+      "name": "320:middle:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:middle:como-funciona correct anchor",
+      "passed": true,
+      "data": 87.96875
+    },
+    {
+      "name": "320:middle:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:middle:duvidas correct anchor",
+      "passed": true,
+      "data": 87.625
+    },
+    {
+      "name": "320:middle:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:middle:orcamento correct anchor",
+      "passed": true,
+      "data": 88.375
+    },
+    {
+      "name": "320:bottom:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:bottom:servicos correct anchor",
+      "passed": true,
+      "data": 88
+    },
+    {
+      "name": "320:bottom:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:bottom:maquinas correct anchor",
+      "passed": true,
+      "data": 88.03125
+    },
+    {
+      "name": "320:bottom:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:bottom:aplicacoes correct anchor",
+      "passed": true,
+      "data": 88.328125
+    },
+    {
+      "name": "320:bottom:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:bottom:como-funciona correct anchor",
+      "passed": true,
+      "data": 87.96875
+    },
+    {
+      "name": "320:bottom:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:bottom:duvidas correct anchor",
+      "passed": true,
+      "data": 87.625
+    },
+    {
+      "name": "320:bottom:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320:bottom:orcamento correct anchor",
+      "passed": true,
+      "data": 88.375
+    },
+    {
+      "name": "320: service keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: service preselection",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: machine and service preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: pt-BR city validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: pt-BR goal validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: area validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: multi-service back preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: details preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: summary correct",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: clipboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: editing retained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: reset all services",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: empty service validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: sample project",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox 0 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox 1 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox 2 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: overlay keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: original photo",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: FAQ 0",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: FAQ 1",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: FAQ 2",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: FAQ 3",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: FAQ 4",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: mobile menu focus trap",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: menu Escape/focus",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: no badge or personal controls",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: no JS errors/local failures",
+      "passed": true,
+      "data": {
+        "errors": []
+      }
+    },
+    {
+      "name": "320: no data sent/persisted",
+      "passed": true,
+      "data": {
+        "session": {
+          "fieldnorth-opening": "seen"
+        },
+        "local": {}
+      }
+    },
+    {
+      "name": "320: planner memory-only after reload",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "320: direct fragment",
+      "passed": true,
+      "data": 88.03125
+    },
+    {
+      "name": "390: width, language, immediate text/nav and first opening",
+      "passed": true,
+      "data": {
+        "width": 390,
+        "scroll": 390,
+        "lang": "pt-BR",
+        "title": "FieldNorth | Terraplenagem e Máquinas — Demo Brasil",
+        "hero": "1",
+        "nav": "1",
+        "video": 0,
+        "scene": 4000
+      }
+    },
+    {
+      "name": "390: shortened return",
+      "passed": true,
+      "data": 800
+    },
+    {
+      "name": "390: lightweight replay",
+      "passed": true,
+      "data": 4000
+    },
+    {
+      "name": "390:top:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:top:servicos correct anchor",
+      "passed": true,
+      "data": 88
+    },
+    {
+      "name": "390:top:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:top:maquinas correct anchor",
+      "passed": true,
+      "data": 88.3125
+    },
+    {
+      "name": "390:top:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:top:aplicacoes correct anchor",
+      "passed": true,
+      "data": 87.875
+    },
+    {
+      "name": "390:top:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:top:como-funciona correct anchor",
+      "passed": true,
+      "data": 88.109375
+    },
+    {
+      "name": "390:top:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:top:duvidas correct anchor",
+      "passed": true,
+      "data": 87.953125
+    },
+    {
+      "name": "390:top:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:top:orcamento correct anchor",
+      "passed": true,
+      "data": 87.515625
+    },
+    {
+      "name": "390:middle:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:middle:servicos correct anchor",
+      "passed": true,
+      "data": 88
+    },
+    {
+      "name": "390:middle:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:middle:maquinas correct anchor",
+      "passed": true,
+      "data": 88.3125
+    },
+    {
+      "name": "390:middle:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:middle:aplicacoes correct anchor",
+      "passed": true,
+      "data": 87.875
+    },
+    {
+      "name": "390:middle:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:middle:como-funciona correct anchor",
+      "passed": true,
+      "data": 88.109375
+    },
+    {
+      "name": "390:middle:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:middle:duvidas correct anchor",
+      "passed": true,
+      "data": 87.953125
+    },
+    {
+      "name": "390:middle:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:middle:orcamento correct anchor",
+      "passed": true,
+      "data": 87.515625
+    },
+    {
+      "name": "390:bottom:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:bottom:servicos correct anchor",
+      "passed": true,
+      "data": 88
+    },
+    {
+      "name": "390:bottom:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:bottom:maquinas correct anchor",
+      "passed": true,
+      "data": 88.3125
+    },
+    {
+      "name": "390:bottom:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:bottom:aplicacoes correct anchor",
+      "passed": true,
+      "data": 87.875
+    },
+    {
+      "name": "390:bottom:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:bottom:como-funciona correct anchor",
+      "passed": true,
+      "data": 88.109375
+    },
+    {
+      "name": "390:bottom:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:bottom:duvidas correct anchor",
+      "passed": true,
+      "data": 87.953125
+    },
+    {
+      "name": "390:bottom:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390:bottom:orcamento correct anchor",
+      "passed": true,
+      "data": 87.515625
+    },
+    {
+      "name": "390: service keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: service preselection",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: machine and service preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: pt-BR city validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: pt-BR goal validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: area validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: multi-service back preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: details preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: summary correct",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: clipboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: editing retained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: reset all services",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: empty service validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: sample project",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox 0 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox 1 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox 2 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: overlay keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: original photo",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: FAQ 0",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: FAQ 1",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: FAQ 2",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: FAQ 3",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: FAQ 4",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: mobile menu focus trap",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: menu Escape/focus",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: no badge or personal controls",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: no JS errors/local failures",
+      "passed": true,
+      "data": {
+        "errors": []
+      }
+    },
+    {
+      "name": "390: no data sent/persisted",
+      "passed": true,
+      "data": {
+        "session": {
+          "fieldnorth-opening": "seen"
+        },
+        "local": {}
+      }
+    },
+    {
+      "name": "390: planner memory-only after reload",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "390: direct fragment",
+      "passed": true,
+      "data": 88.3125
+    },
+    {
+      "name": "768: width, language, immediate text/nav and first opening",
+      "passed": true,
+      "data": {
+        "width": 768,
+        "scroll": 768,
+        "lang": "pt-BR",
+        "title": "FieldNorth | Terraplenagem e Máquinas — Demo Brasil",
+        "hero": "1",
+        "nav": "1",
+        "video": 0,
+        "scene": 4000
+      }
+    },
+    {
+      "name": "768: shortened return",
+      "passed": true,
+      "data": 800
+    },
+    {
+      "name": "768: lightweight replay",
+      "passed": true,
+      "data": 4000
+    },
+    {
+      "name": "768:top:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:top:servicos correct anchor",
+      "passed": true,
+      "data": 100
+    },
+    {
+      "name": "768:top:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:top:maquinas correct anchor",
+      "passed": true,
+      "data": 100.234375
+    },
+    {
+      "name": "768:top:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:top:aplicacoes correct anchor",
+      "passed": true,
+      "data": 100.265625
+    },
+    {
+      "name": "768:top:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:top:como-funciona correct anchor",
+      "passed": true,
+      "data": 99.921875
+    },
+    {
+      "name": "768:top:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:top:duvidas correct anchor",
+      "passed": true,
+      "data": 99.578125
+    },
+    {
+      "name": "768:top:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:top:orcamento correct anchor",
+      "passed": true,
+      "data": 99.53125
+    },
+    {
+      "name": "768:middle:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:middle:servicos correct anchor",
+      "passed": true,
+      "data": 100
+    },
+    {
+      "name": "768:middle:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:middle:maquinas correct anchor",
+      "passed": true,
+      "data": 100.234375
+    },
+    {
+      "name": "768:middle:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:middle:aplicacoes correct anchor",
+      "passed": true,
+      "data": 100.265625
+    },
+    {
+      "name": "768:middle:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:middle:como-funciona correct anchor",
+      "passed": true,
+      "data": 99.921875
+    },
+    {
+      "name": "768:middle:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:middle:duvidas correct anchor",
+      "passed": true,
+      "data": 99.578125
+    },
+    {
+      "name": "768:middle:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:middle:orcamento correct anchor",
+      "passed": true,
+      "data": 99.53125
+    },
+    {
+      "name": "768:bottom:servicos menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:bottom:servicos correct anchor",
+      "passed": true,
+      "data": 100
+    },
+    {
+      "name": "768:bottom:maquinas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:bottom:maquinas correct anchor",
+      "passed": true,
+      "data": 100.234375
+    },
+    {
+      "name": "768:bottom:aplicacoes menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:bottom:aplicacoes correct anchor",
+      "passed": true,
+      "data": 100.265625
+    },
+    {
+      "name": "768:bottom:como-funciona menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:bottom:como-funciona correct anchor",
+      "passed": true,
+      "data": 99.921875
+    },
+    {
+      "name": "768:bottom:duvidas menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:bottom:duvidas correct anchor",
+      "passed": true,
+      "data": 99.578125
+    },
+    {
+      "name": "768:bottom:orcamento menu closed",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768:bottom:orcamento correct anchor",
+      "passed": true,
+      "data": 99.53125
+    },
+    {
+      "name": "768: service keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: service preselection",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: machine and service preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: pt-BR city validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: pt-BR goal validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: area validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: multi-service back preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: details preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: summary correct",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: clipboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: editing retained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: reset all services",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: empty service validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: sample project",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox 0 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox 1 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox 2 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: overlay keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: original photo",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: FAQ 0",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: FAQ 1",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: FAQ 2",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: FAQ 3",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: FAQ 4",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: mobile menu focus trap",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: menu Escape/focus",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: no badge or personal controls",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: no JS errors/local failures",
+      "passed": true,
+      "data": {
+        "errors": []
+      }
+    },
+    {
+      "name": "768: no data sent/persisted",
+      "passed": true,
+      "data": {
+        "session": {
+          "fieldnorth-opening": "seen"
+        },
+        "local": {}
+      }
+    },
+    {
+      "name": "768: planner memory-only after reload",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "768: direct fragment",
+      "passed": true,
+      "data": 100.234375
+    },
+    {
+      "name": "1440: width, language, immediate text/nav and first opening",
+      "passed": true,
+      "data": {
+        "width": 1440,
+        "scroll": 1440,
+        "lang": "pt-BR",
+        "title": "FieldNorth | Terraplenagem e Máquinas — Demo Brasil",
+        "hero": "1",
+        "nav": "1",
+        "video": 0,
+        "scene": 4000
+      }
+    },
+    {
+      "name": "1440: shortened return",
+      "passed": true,
+      "data": 800
+    },
+    {
+      "name": "1440: lightweight replay",
+      "passed": true,
+      "data": 4000
+    },
+    {
+      "name": "1440:top:servicos correct anchor",
+      "passed": true,
+      "data": 100
+    },
+    {
+      "name": "1440:top:maquinas correct anchor",
+      "passed": true,
+      "data": 100.40625
+    },
+    {
+      "name": "1440:top:aplicacoes correct anchor",
+      "passed": true,
+      "data": 99.515625
+    },
+    {
+      "name": "1440:top:como-funciona correct anchor",
+      "passed": true,
+      "data": 99.921875
+    },
+    {
+      "name": "1440:top:duvidas correct anchor",
+      "passed": true,
+      "data": 100.4375
+    },
+    {
+      "name": "1440:top:orcamento correct anchor",
+      "passed": true,
+      "data": 100.390625
+    },
+    {
+      "name": "1440:middle:servicos correct anchor",
+      "passed": true,
+      "data": 100
+    },
+    {
+      "name": "1440:middle:maquinas correct anchor",
+      "passed": true,
+      "data": 100.40625
+    },
+    {
+      "name": "1440:middle:aplicacoes correct anchor",
+      "passed": true,
+      "data": 99.515625
+    },
+    {
+      "name": "1440:middle:como-funciona correct anchor",
+      "passed": true,
+      "data": 99.921875
+    },
+    {
+      "name": "1440:middle:duvidas correct anchor",
+      "passed": true,
+      "data": 100.4375
+    },
+    {
+      "name": "1440:middle:orcamento correct anchor",
+      "passed": true,
+      "data": 100.390625
+    },
+    {
+      "name": "1440:bottom:servicos correct anchor",
+      "passed": true,
+      "data": 100
+    },
+    {
+      "name": "1440:bottom:maquinas correct anchor",
+      "passed": true,
+      "data": 100.40625
+    },
+    {
+      "name": "1440:bottom:aplicacoes correct anchor",
+      "passed": true,
+      "data": 99.515625
+    },
+    {
+      "name": "1440:bottom:como-funciona correct anchor",
+      "passed": true,
+      "data": 99.921875
+    },
+    {
+      "name": "1440:bottom:duvidas correct anchor",
+      "passed": true,
+      "data": 100.4375
+    },
+    {
+      "name": "1440:bottom:orcamento correct anchor",
+      "passed": true,
+      "data": 100.390625
+    },
+    {
+      "name": "1440: service keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: service preselection",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: machine and service preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: pt-BR city validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: pt-BR goal validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: area validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: multi-service back preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: details preserved",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: summary correct",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: clipboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: editing retained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: reset all services",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: empty service validation",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: sample project",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox 0 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox 1 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox 2 open",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox focus contained",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: lightbox focus returned",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: overlay keyboard",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: original photo",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: FAQ 0",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: FAQ 1",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: FAQ 2",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: FAQ 3",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: FAQ 4",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: no badge or personal controls",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: no JS errors/local failures",
+      "passed": true,
+      "data": {
+        "errors": []
+      }
+    },
+    {
+      "name": "1440: no data sent/persisted",
+      "passed": true,
+      "data": {
+        "session": {
+          "fieldnorth-opening": "seen"
+        },
+        "local": {}
+      }
+    },
+    {
+      "name": "1440: planner memory-only after reload",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "1440: direct fragment",
+      "passed": true,
+      "data": 100.40625
+    },
+    {
+      "name": "reduced: hero stays readable",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "reduced: animations disabled",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "reduced: touch overlay",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "save-data: hero stays readable",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "save-data: animations disabled",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "save-data: touch overlay",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "failed-image: hero stays readable",
+      "passed": true,
+      "data": null
+    },
+    {
+      "name": "failed-image: touch overlay",
+      "passed": true,
+      "data": null
+    }
+  ],
+  "build": {
+    "index-F9IBHF8H.css": "5f46f4ffe20416bf8732c3e1e39ef9086cce67dffa700f67035be64522663fad",
+    "index-oFhKfgl2.js": "04a4e5d303325bdef893285fc06de7a00e649191c953069a5c8d571f619466d1"
+  }
+}

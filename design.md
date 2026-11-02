@@ -1,5 +1,29 @@
 # FieldNorth — Design
 
+## Planning section correction
+
+Only `#planejamento`: licensed Ann Perkas/Pexels 15493828 empty dry plot with visible dirt access, no foreground machinery. Dedicated local responsive 3:2 WebP crop; both states share one unchanged image. Keep that full crop and a matching 1200×800 SVG coordinate system at every width so markings cannot drift. Draw the work polygon within the open fenced parcel and trace the horizontal dirt track as it curves uphill at right; labels avoid the access. Preserve Portuguese toggle labels/disclaimer, hero and every other section.
+
+## Hero poster alignment
+
+Replace only the hero poster with an optimized 1280×720 WebP extracted from frame zero of the existing local loop. Image cover/70% center matches the video, including static fallback. Update only the hero alt and its preload; no video, content, control or layout changes.
+
+## Hero working-footage correction — current
+
+Only `#inicio` changes. Keep all existing copy, palette, geometry, poster and secondary interactions. Desktop (768px+, hover/fine pointer) gets local licensed working excavator footage after window load, two painted frames and 250ms; mobile/touch, reduced-motion and save-data keep the poster without mounting/requesting video. Native muted/inline looping video, no audio, 7.208s/720p/24fps/1.363MB source (0.722MB production). Retain four-second CSS entrance; returning flag affects entrance duration only. Add a 44px pause/play control beside replay. Replay scrolls instantly to the hero, restarts entrance and resets media to zero. Offscreen/tab-hidden pauses preserve manual pause. Decode/load/autoplay failure leaves the immediate poster and all navigation usable. This supersedes previous no-video statements only for this desktop hero.
+
+## Brazilian revision — 2 November 2026 (current)
+
+The supplied seven-page Brazilian revision supersedes the English concept below. Keep the existing managed web stack, analytics and badge absence. No API/database changes or publishing. Recoverable source snapshot: `/home/user/fieldnorth-before-br.tar.gz` (excludes credentials and dependencies).
+
+- All visitor-facing copy and metadata: pt-BR, exact supplied strings. Fictional Cascavel/Toledo earthworks concept, not a record of jobs.
+- Forest #14251d, ivory #f3f0e8, amber #f2bb3f; local Manrope with 400/700 styling. Oversized readable hero, asymmetrical photography, warm services, dark machinery, editorial applications, photo planning overlay and local in-memory planner.
+- Inspected LaMomentum reference on 2 November: cinematic photographic background, oversized contrast-heavy headings. Borrow visual principles, not metrics/testimonials or its multiple videos.
+- Photography fallback: licensed Pexels images, no video/download/player, no invented continuous machine movement. Responsive local WebP hero, high priority, all secondary photos lazy and dimensioned. Existing legacy assets remain recoverable but unused in new page.
+- First visit: four-second transform-only framing, brand movement/amber line, supporting marks and final scroll indicator. Text/nav/CTAs never hidden. Return entrance 800ms; replay lightweight effects only. A non-personal session flag stores only opening preference; planner data remains in memory. Reduced-motion/save-data removes decorative movement. Once-only IntersectionObserver reveals, 22px/700ms; hover/focus photo feedback.
+- Native fragment links + single scroll-margin offset. Mobile dialog closes synchronously before native anchor default. Keyboard dialogs restore focus; photo/overlay toggle uses native pressed buttons; planner supports multiple services, optional machine and no personal data, local summary/copy/reset.
+- Verify 320/390/768/1440, production files-only paths, interaction/motion/media failure, three mobile and three desktop cold-cache Lighthouse runs and size budgets. Physical devices and field INP remain explicitly unverified.
+
 Source of truth: the eight-page FieldNorth Premium Brief, approved 28 October 2026.
 
 Single-page fictional contractor portfolio. Outdoor editorial scale meets architectural precision. Full-bleed dark machine hero, warm ivory editorial sections, signature dark landscape interaction and intentional dark closing wordmark.

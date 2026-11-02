@@ -1,0 +1,26 @@
+[
+  {
+    "src": "http://localhost:4200/images/br-compact-machine-poster.webp",
+    "alt": "Miniescavadeira laranja com a caçamba junto a uma pilha de terra, em cena ilustrativa de escavação",
+    "w": 1280,
+    "h": 720,
+    "fit": "cover",
+    "pos": "70% 50%",
+    "complete": true
+  },
+  {
+    "src": "http://localhost:4200/images/br-compact-machine-poster.webp",
+    "alt": "Miniescavadeira laranja com a caçamba junto a uma pilha de terra, em cena ilustrativa de escavação",
+    "w": 1280,
+    "h": 720,
+    "fit": "cover",
+    "pos": "70% 50%",
+    "complete": true
+  },
+  {
+    "image": "70% 50%",
+    "video": "70% 50%",
+    "fit": "cover",
+    "src": "/videos/br-compact-machine-loop.mp4"
+  }
+]

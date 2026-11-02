@@ -1,0 +1,297 @@
+{
+  "lighthouseVersion": "13.6.0",
+  "medians": {
+    "mobile": {
+      "runs": [
+        {
+          "largest-contentful-paint": 922.5994000000001,
+          "total-blocking-time": 150,
+          "cumulative-layout-shift": 0,
+          "total-byte-weight": 862491,
+          "scores": {
+            "performance": 98.0,
+            "accessibility": 100,
+            "best-practices": 100
+          }
+        },
+        {
+          "largest-contentful-paint": 913.8680999999999,
+          "total-blocking-time": 149.5,
+          "cumulative-layout-shift": 0,
+          "total-byte-weight": 862491,
+          "scores": {
+            "performance": 98.0,
+            "accessibility": 100,
+            "best-practices": 100
+          }
+        },
+        {
+          "largest-contentful-paint": 924.5177000000001,
+          "total-blocking-time": 102,
+          "cumulative-layout-shift": 0,
+          "total-byte-weight": 862491,
+          "scores": {
+            "performance": 99.0,
+            "accessibility": 100,
+            "best-practices": 100
+          }
+        }
+      ],
+      "medians": {
+        "largest-contentful-paint": 922.5994000000001,
+        "total-blocking-time": 149.5,
+        "cumulative-layout-shift": 0,
+        "total-byte-weight": 862491
+      },
+      "settings": {
+        "output": [
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 562.5,
+          "downloadThroughputKbps": 1474.5600000000002,
+          "uploadThroughputKbps": 675,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 412,
+          "height": 823,
+          "deviceScaleFactor": 1.75,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "cli",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      }
+    },
+    "desktop": {
+      "runs": [
+        {
+          "largest-contentful-paint": 252.9171,
+          "total-blocking-time": 4,
+          "cumulative-layout-shift": 0,
+          "total-byte-weight": 926279,
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100
+          }
+        },
+        {
+          "largest-contentful-paint": 248.46409999999997,
+          "total-blocking-time": 3,
+          "cumulative-layout-shift": 0,
+          "total-byte-weight": 926279,
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100
+          }
+        },
+        {
+          "largest-contentful-paint": 244.86,
+          "total-blocking-time": 10,
+          "cumulative-layout-shift": 0,
+          "total-byte-weight": 926279,
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100
+          }
+        }
+      ],
+      "medians": {
+        "largest-contentful-paint": 248.46409999999997,
+        "total-blocking-time": 4,
+        "cumulative-layout-shift": 0,
+        "total-byte-weight": 926279
+      },
+      "settings": {
+        "output": [
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "cli",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices"
+        ],
+        "skipAudits": null
+      }
+    }
+  },
+  "assets": {
+    "index.html": {
+      "bytes": 1854,
+      "gzipBytes": 881,
+      "sha256": "2c89cb3bd6447da5596ec6eaf3b49f86d9406b901f4e3795dac6de1dfb8d098f"
+    },
+    "index-BeWtNTL3.js": {
+      "bytes": 487995,
+      "gzipBytes": 143770,
+      "sha256": "647fcd8be8088bbe524732ce78d473e7591fbd909e81ed967ca8ffaa8ee562d4"
+    },
+    "index-F9IBHF8H.css": {
+      "bytes": 41461,
+      "gzipBytes": 9322,
+      "sha256": "5f46f4ffe20416bf8732c3e1e39ef9086cce67dffa700f67035be64522663fad"
+    },
+    "runable.js": {
+      "bytes": 11987,
+      "gzipBytes": 3863,
+      "sha256": "692757a9e2efa8ca19f5ee39124790456e35370cf2587d6a7e3b19198d4fede2"
+    },
+    "manrope-latin-variable.woff2": {
+      "bytes": 24532,
+      "gzipBytes": 24560,
+      "sha256": "8c2def024c1bf31aacf3624ae3c4d701269b4ec3dc765c04830839f0d36b2d9e"
+    },
+    "br-loader-1200.webp": {
+      "bytes": 173258,
+      "gzipBytes": 173331,
+      "sha256": "f6970405dd8b8e55d2423aa139a46322939cf00b3e64d0245549fac753aa76d5"
+    },
+    "br-excavation-1200.webp": {
+      "bytes": 116850,
+      "gzipBytes": 116908,
+      "sha256": "407df8a3da5c48036a64aafda40927be7845ea72b8db03168f1d7e11272059f5"
+    },
+    "br-social.jpg": {
+      "bytes": 205090,
+      "gzipBytes": 205019,
+      "sha256": "5ca049d3f16809c278c4c23c77c0827344945470cbf970d81ab38045dff5c394"
+    },
+    "br-excavator-640.webp": {
+      "bytes": 67276,
+      "gzipBytes": 67319,
+      "sha256": "cbf494199f4f62d7fd5d9a29fa656dc5c3e263dbabba0956ff9d13aad8edbfaa"
+    },
+    "br-excavator-1200.webp": {
+      "bytes": 193792,
+      "gzipBytes": 193870,
+      "sha256": "e3a1f34a2ef712f31b6067301844d758b3ab04f97db260cd29f4b72990ebff25"
+    },
+    "br-terrain-960.webp": {
+      "bytes": 54002,
+      "gzipBytes": 54040,
+      "sha256": "1a7b3320b4fb0038d1b38c8e59dc6316b72aea1bab48f0eb7786aaa4268b4e83"
+    },
+    "br-loader-960.webp": {
+      "bytes": 109470,
+      "gzipBytes": 109523,
+      "sha256": "80c2efad515a2064a51010b3fe1620f2baa03c110b42f946ec1541eefab82db3"
+    },
+    "br-excavation-960.webp": {
+      "bytes": 73858,
+      "gzipBytes": 73901,
+      "sha256": "c235905561e76ddaeb80ee1521c3e7b48f156b1ee61c92301a42fa4a33efd473"
+    },
+    "br-terrain-640.webp": {
+      "bytes": 30656,
+      "gzipBytes": 30684,
+      "sha256": "5f6b9d4418d6f52b7dd9bbc3b0b0e79ce4443fc142c0b36aab5e95d5aaf07122"
+    },
+    "br-terrain-1200.webp": {
+      "bytes": 92374,
+      "gzipBytes": 92422,
+      "sha256": "9fae2ec6d930dfa2ccfbcd83efafc4e771f54b4e05ce546613b49886738ec64c"
+    },
+    "br-excavation-640.webp": {
+      "bytes": 45118,
+      "gzipBytes": 45151,
+      "sha256": "b370a4f225c27f6349b3de0dbe9fa826eccc9208321386f26b9afe9f85fdfae6"
+    },
+    "br-loader-640.webp": {
+      "bytes": 54420,
+      "gzipBytes": 54458,
+      "sha256": "e8a8abd9bc439c12ebc9f1996164b42089388f022d1e7029064fb5386456fd30"
+    },
+    "br-excavator-960.webp": {
+      "bytes": 129222,
+      "gzipBytes": 129280,
+      "sha256": "edc9aa93e532b502bf7c72ef3e25b2e62e0e7d08a44a273b040406bdbb512cb4"
+    }
+  }
+}
